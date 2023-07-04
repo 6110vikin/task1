@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+.nav{
+  background-color: black;
+}
+.vikin{
+  height: 400px;
+}
+
+.product{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 45px;
+  background-color: cadetblue;
+}
+.cardphoto{
+  height: 150px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

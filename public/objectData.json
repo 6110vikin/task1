@@ -1,0 +1,65 @@
+{ "user" :
+    [
+        {
+          "Accountnumber": "1330001",
+          "LinkedBankAccount": "1300001",
+          "Status": "Closed",
+          "BankCode": "SBI0045",
+          "BankName": "SBI",
+          "AvailableBalance": "0",
+          "PrincipleAmount": "50000",
+          "InterestEarned": "10000",
+          "MonthlyDeposit": "600",
+          "InterestRate": "6%",
+          "Tenure": "12",
+          "MaturityAmount": "70000",
+          "TaxPaid": "250"
+        },
+        {
+          "Accountnumber": "1440001",
+          "LinkedBankAccount": "1400001",
+          "Status": "Open",
+          "BankCode": "BOB0045",
+          "BankName": "BOB",
+          "AvailableBalance": "12500",
+          "PrincipleAmount": "35000",
+          "InterestEarned": "17000",
+          "MonthlyDeposit": "800",
+          "InterestRate": "9%",
+          "Tenure": "18",
+          "MaturityAmount": "50000",
+          "TaxPaid": "500"
+        },
+        {
+          "Accountnumber": "1550001",
+          "LinkedBankAccount": "1500001",
+          "Status": "Closed",
+          "BankCode": "HDFC0045",
+          "BankName": "HDFC",
+          "AvailableBalance": "12000",
+          "PrincipleAmount": "40000",
+          "InterestEarned": "8000",
+          "MonthlyDeposit": "6300",
+          "InterestRate": "5%",
+          "Tenure": "6",
+          "MaturityAmount": "96300",
+          "TaxPaid": "120"
+        },
+        {
+          "Accountnumber": "1660001",
+          "LinkedBankAccount": "1600001",
+          "Status": "Open",
+          "BankCode": "KOTAK0045",
+          "BankName": "KOTAK",
+          "AvailableBalance": "14500",
+          "PrincipleAmount": "6000",
+          "InterestEarned": "18000",
+          "MonthlyDeposit": "300",
+          "InterestRate": "11%",
+          "Tenure": "36",
+          "MaturityAmount": "80000",
+          "TaxPaid": "950"
+        }
+      ]
+}
+

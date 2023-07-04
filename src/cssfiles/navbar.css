@@ -1,0 +1,47 @@
+.navbar{
+    background-color: rgba(181, 212, 212, 0.57);
+    width: 100%;
+    position: fixed;
+    
+}
+.profile-image{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+
+.heading{
+    font-size: 30px;
+    margin-left: 15px;
+    
+}
+.sidebar{
+    background-color: bisque;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+
+    
+
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+    margin-left: -25px;
+
+}
+li:hover{
+    background-color: rgb(149, 200, 202);
+}
+.color{
+    background-color: blue;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}

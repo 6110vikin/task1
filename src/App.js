@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { BrowserRouter,  Route,  Routes } from "react-router-dom";
+import Navbar from "../src/pagescomponeat/navbar";
+import Dashboard from "../src/pagescomponeat/dashboard";
+import Banks from "../src/pagescomponeat/banks";
+import Bankaccount from "./pagescomponeat/bankaccount";
+import Ppfaccount from "./pagescomponeat/ppfaccount";
+import Taxpaid from "./pagescomponeat/taxpaid";
+import Uploadstatements from "./pagescomponeat/uploadstatments";
+import "./App.css"
+
+
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />} />
+        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="banks" element={<Banks />} />
+        <Route path="bankaccount" element={<Bankaccount />} />
+        <Route path="ppfaccount" element={<Ppfaccount />} />
+        <Route path="taxpaid" element={<Taxpaid />} />
+        <Route path="uploadstatements" element={<Uploadstatements />} />
 
+
+        
+        </Routes>
+        </BrowserRouter>
+  )
+
+}
 export default App;
+
+
+
